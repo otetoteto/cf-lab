@@ -31,6 +31,8 @@ export default {
     env: Env,
     ctx: ExecutionContext,
   ): Promise<Response> {
-    return new Response("Hello Worker!");
+    return new Response(
+      `Hello Worker! from ${request.cf?.country}`,
+    );
   },
 };
