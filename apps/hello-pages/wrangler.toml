@@ -1,0 +1,5 @@
+name = "hello-pages"
+compatibility_date = "2023-12-10"
+kv_namespaces = [
+	{ binding = "KV", id = "cc2bd1d1134e4a0c9b6fd050f030b4c6" }
+]

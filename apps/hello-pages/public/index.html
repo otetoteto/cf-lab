@@ -7,5 +7,13 @@
   </head>
   <body>
     <h1>Hello Pages!!</h1>
+    <div id="counter"></div>
+
+    <script type="module">
+      const res = await fetch('/counter');
+      const result = await res.json();
+      const counter = document.getElementById('counter');
+      counter.textContent = `Count: ${result.count}`;
+    </script>
   </body>
 </html>
