@@ -8,6 +8,12 @@ importers:
 
   .: {}
 
+  apps/hello-pages:
+    devDependencies:
+      wrangler:
+        specifier: ^3.0.0
+        version: 3.28.2(@cloudflare/workers-types@4.20240208.0)
+
   apps/hello-world:
     devDependencies:
       '@cloudflare/workers-types':

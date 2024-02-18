@@ -1,0 +1,13 @@
+{
+  "name": "hello-pages",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler pages deploy ./public"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
